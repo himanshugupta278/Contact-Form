@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="/action_page.php">
+    <h1>Contact Form</h1>
+
+    <div style="margin: 10px 0px;">
+      <label for="uname">Full Name :</label>
+      <input class="main" type="text" name="uname" placeholder="Enter your name">
+    </div>
+
+    <div style="margin: 10px 0px;">
+      <label for="email">Email :</label>
+      <input class="main" type="email" name="email" placeholder="Enter your email">
+    </div>
+
+    <div style="margin: 10px 0px;">
+      <label for="slot">Time Slot :</label>
+      <div class="radio-group">
+        <label><input type="radio" name="slot" value="slot1"> 9.00AM - 10.00AM</label>
+        <label><input type="radio" name="slot" value="slot2"> 5.00PM - 6.00PM</label>
+      </div>
+    </div>
+
+    <div style="margin: 10px 0px;">
+      <label for="course">Choose your course :</label>
+      <select name="course">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+      </select>
+    </div>
+
+    <div style="margin: 10px 0px;">
+      <label for="message">Message :</label>
+      <textarea rows="5" cols="37" placeholder="Write your message..."></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
