@@ -13,7 +13,7 @@ This form can be used to collect user details like name, email, time slot, cours
 - Responsive design 
 
 ##  Preview  
-![Contact Form Screenshot](image\contactform.png)  
+![Contact Form Screenshot](image/contactform.png)  
 
 ## 🔗 Live Demo  
  [View Demo](https://himanshugupta278.github.io/Contact-Form/)  
